@@ -53,8 +53,33 @@ header {
 }
 
 
-
 /* MAIN */
+input {
+	display: block;
+	margin: 0 auto 3vh;
+}
+
+main {
+	padding-top: 10vh;
+}
+
+.form-input {
+	border: none;
+	border-bottom: 1px black solid;
+	background-color: transparent;
+	font-family: Copperplate Gothic Light, fantasy;
+	font-size: 1em;
+	text-align: center;
+}
+
+.form-input:focus {
+	border-bottom-color: red;
+	color: black;
+}
+
+.form-input:focus::placeholder {
+	font-style: italic; 
+}
 
 
 
