@@ -18,3 +18,6 @@
 
 ## Errors
 > 1. N/A
+
+## Extra Information
+> 1. This was done for one of the activites in _freecodecamp_'s _Intermediate Algorithm Scripting_ section
