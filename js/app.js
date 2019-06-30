@@ -5,7 +5,7 @@ window.onload = function(event) {
 
 	function compare(one, two) {
 		if (!one || !two) {
-			display("Enter values", "???", "???");
+			display("???", "???", "Enter values");
 		} else {
 			let first = one.split(/\s+/);
 			let second = two.split(/\s+/);
