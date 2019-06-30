@@ -104,3 +104,10 @@ main {
 
 
 /* FOOTER */
+footer {
+	position: absolute;
+	bottom: 0;
+	min-width: 100%;
+	padding: 1.5vh 0;
+	background-color: #06CDF4;
+}
