@@ -11,3 +11,10 @@
 > 2. Enter space separated values into the second input field
 > 3. Press the compare button
 > 4. The values in the first, second array and exclusive values in each array will be displyed
+
+## Requirements
+> 1. This application requires a browser to run
+> 2. The browser must have JavaScript available and enabled
+
+## Errors
+> 1. N/A
