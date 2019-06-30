@@ -5,7 +5,7 @@ window.onload = function(event) {
 
 	function compare(one, two) {
 		if (!one || !two) {
-			return "Enter values";
+			display("Enter values", "???", "???");
 		} else {
 			let first = one.split(/\s+/);
 			let second = two.split(/\s+/);
@@ -37,8 +37,14 @@ window.onload = function(event) {
 			// 	}
 			// });
 
-			return array;
+			display(first, second, array);
 		}
+	}
+
+	function display(a1, a2, r) {
+		document.getElementById("first-value").textContent = a1;
+		document.getElementById("second-value").textContent = a2;
+		document.getElementById("diff-value").textContent = r;
 	}
 
 	function toggle(chevron) {
