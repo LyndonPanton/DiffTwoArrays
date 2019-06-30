@@ -17,6 +17,15 @@ body, html {
 
 
 /* HEADER */
+h1 {
+	margin: 0;
+	padding: 1vh 0;
+}
+
+header {
+	background-color: #6DC1FF;
+	font-size: 0.8em;
+}
 
 
 
