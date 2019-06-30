@@ -63,6 +63,13 @@ main {
 	padding-top: 10vh;
 }
 
+.display {
+	border: 2px #3BABFD solid;
+	border-radius: 5px;
+	margin: 2vh 15vw;
+	padding: 1vh 0;
+}
+
 .form-input {
 	border: none;
 	border-bottom: 1px black solid;
