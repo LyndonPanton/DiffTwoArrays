@@ -27,6 +27,31 @@ header {
 	font-size: 0.8em;
 }
 
+.hidden {
+	display: none;  
+}
+
+.task-head {
+	text-decoration: underline;
+}
+
+.visible {
+	display: block;
+}
+
+#chevron {
+	transform: scale(2, 1);
+	font-size: 1em;
+}
+
+#task {
+	position: absolute;
+	z-index: 1;
+	padding: 0.5vh 10vw;
+	background-color: #224B8B;
+	color: white;
+}
+
 
 
 /* MAIN */
