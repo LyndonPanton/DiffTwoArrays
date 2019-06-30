@@ -24,6 +24,19 @@ window.onload = function(event) {
 				}
 			}
 
+			// Method II
+			// first.forEach(function(value) {
+			// 	if (second.indexOf(value) === -1) {
+			// 		array.push(value);
+			// 	}
+			// });
+
+			// second.forEach(function(value) {
+			// 	if (first.indexOf(value) === -1) {
+			// 		array.push(value);
+			// 	}
+			// });
+
 			return array;
 		}
 	}
