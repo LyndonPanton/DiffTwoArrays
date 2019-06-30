@@ -4,7 +4,28 @@ window.onload = function(event) {
 	document.getElementById("copyright-year").textContent = (new Date()).getFullYear();
 
 	function compare(one, two) {
+		if (!one || !two) {
+			return "Enter values";
+		} else {
+			let first = one.split(/\s+/);
+			let second = two.split(/\s+/);
+			let array = [];
 
+			// Method I
+			for (let i = 0; i < first.length; i++) {
+				if (second.indexOf(first[i]) === -1) {
+					array.push(first[i]);
+				}
+			}
+
+			for (let i = 0; i < second.length; i++) {
+				if (first.indexOf(second[i]) === -1) {
+					array.push(second[i]);
+				}
+			}
+
+			return array;
+		}
 	}
 
 	function toggle(chevron) {
