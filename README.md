@@ -21,3 +21,12 @@
 
 ## Extra Information
 > 1. This was done for one of the activites in _freecodecamp_'s _Intermediate Algorithm Scripting_ section
+
+## Preview
+![Screenshot 1](./img/screenshot1.png)
+![Screenshot 2](./img/screenshot2.png)
+![Screenshot 3](./img/screenshot3.png)
+![Screenshot 4](./img/screenshot4.png)
+![Screenshot 5](./img/screenshot5.png)
+![Screenshot 6](./img/screenshot6.png)
+![Screenshot 7](./img/screenshot7.png)
