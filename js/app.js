@@ -37,7 +37,7 @@ window.onload = function(event) {
 			// 	}
 			// });
 
-			display(first, second, array);
+			display(first.join(", "), second.join(", "), array.join(", "));
 		}
 	}
 
