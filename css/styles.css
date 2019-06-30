@@ -81,6 +81,19 @@ main {
 	font-style: italic; 
 }
 
+#form-submit {
+	border: 2px indianred solid;
+	border-radius: 5px;
+	padding: 0.5vh 3vw;
+	font-family: cursive;
+	font-size: 1em;
+}
+
+#form-submit:active {
+	background-color: lightgreen;
+	border-color: silver;
+}
+
 
 
 /* FOOTER */
