@@ -3,6 +3,10 @@
 window.onload = function(event) {
 	document.getElementById("copyright-year").textContent = (new Date()).getFullYear();
 
+	function compare(one, two) {
+
+	}
+
 	function toggle(chevron) {
 		let task = document.getElementById("task");
 
@@ -30,5 +34,12 @@ window.onload = function(event) {
 		if (event.keyCode === 13 || event.keyCode === 32) {
 			toggle(this);
 		}
+	});
+
+	let form = document.getElementById("form");
+	form.addEventListener("submit", function(event) {
+		event.preventDefault();
+
+		compare(this.children[0].value, this.children[1].value);
 	});
 };
