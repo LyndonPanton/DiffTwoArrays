@@ -124,3 +124,13 @@ footer {
 .more-link:hover {
 	color: red;
 }
+
+#copyright {
+	display: block;
+}
+
+#more {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
