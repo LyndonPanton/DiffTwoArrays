@@ -7,8 +7,8 @@ window.onload = function(event) {
 		if (!one || !two) {
 			display("???", "???", "Enter values into both input fields");
 		} else {
-			let first = one.split(/\s+/);
-			let second = two.split(/\s+/);
+			let first = one.split(" ").join("").split("");
+			let second = two.split(" ").join("").split("");
 			let array = [];
 
 			// Method I
